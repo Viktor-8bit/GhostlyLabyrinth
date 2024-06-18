@@ -30,12 +30,10 @@ public class MapFabric : MonoBehaviour
         Enemys.Sort((x, y) => y.Enemy.MoveCount.CompareTo(x.Enemy.MoveCount));
 
 
-        string deb = "";
-        
-        foreach (var enemy in Enemys)
-            deb += $" {enemy.Enemy} ";
-        
-        Debug.Log(deb);
+        //string deb = "";
+        //foreach (var enemy in Enemys)
+        //    deb += $" {enemy.Enemy} ";
+        //Debug.Log(deb);
     }
 
     public void Awake()

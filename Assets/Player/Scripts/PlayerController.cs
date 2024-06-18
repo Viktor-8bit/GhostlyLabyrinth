@@ -72,6 +72,16 @@ public class PlayerController : MonoBehaviour, IObject
     {
         int x = (int)Math.Ceiling(this.transform.position.x), y = (int)Math.Ceiling(this.transform.position.y);
 
+        #region "может ли игрок походить"
+
+        if (_mapFabric!.GetId(x: x + 1, y: y) is not 0 or 12     &&
+            _mapFabric!.GetId(x: x - 1, y: y) is not 0 or 12     &&
+            _mapFabric!.GetId(x: x,     y: y - 1) is not 0 or 12 &&
+            _mapFabric!.GetId(x: x,     y: y + 1) is not 0 or 12)
+            StartCoroutine(Deth());
+
+        #endregion
+
 
         if (Input.anyKeyDown && ICanMove && !_die)
         {
