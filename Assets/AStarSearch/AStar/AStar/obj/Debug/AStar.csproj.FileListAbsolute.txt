@@ -1,0 +1,6 @@
+C:\Users\amomomogugus\GhostlyLabyrinth\Assets\AStarSearch\AStar\AStar\bin\Debug\AStar.dll
+C:\Users\amomomogugus\GhostlyLabyrinth\Assets\AStarSearch\AStar\AStar\bin\Debug\AStar.pdb
+C:\Users\amomomogugus\GhostlyLabyrinth\Assets\AStarSearch\AStar\AStar\obj\Debug\AStar.csproj.AssemblyReference.cache
+C:\Users\amomomogugus\GhostlyLabyrinth\Assets\AStarSearch\AStar\AStar\obj\Debug\AStar.csproj.CoreCompileInputs.cache
+C:\Users\amomomogugus\GhostlyLabyrinth\Assets\AStarSearch\AStar\AStar\obj\Debug\AStar.dll
+C:\Users\amomomogugus\GhostlyLabyrinth\Assets\AStarSearch\AStar\AStar\obj\Debug\AStar.pdb
